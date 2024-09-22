@@ -47,9 +47,9 @@ exports[`Should present the route title on scene content 1`] = `
         style={
           {
             "bottom": 0,
-            "left": 0,
+            "end": 0,
             "position": "absolute",
-            "right": 0,
+            "start": 0,
             "top": 0,
           }
         }
@@ -60,12 +60,16 @@ exports[`Should present the route title on scene content 1`] = `
             {
               "backgroundColor": "#ffeb3b",
               "bottom": 0,
+              "end": 0,
               "height": 2,
-              "left": "0%",
               "position": "absolute",
-              "right": 0,
-              "transform": [],
-              "width": "NaN%",
+              "start": 0,
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+              "width": 375,
             }
           }
         />
@@ -86,11 +90,10 @@ exports[`Should present the route title on scene content 1`] = `
             [
               {
                 "flexDirection": "row",
+                "flexGrow": 1,
                 "flexWrap": "nowrap",
               },
-              {
-                "flex": 1,
-              },
+              null,
               undefined,
             ]
           }
@@ -163,11 +166,6 @@ exports[`Should present the route title on scene content 1`] = `
                     "selected": true,
                   }
                 }
-                accessibilityStates={
-                  [
-                    "selected",
-                  ]
-                }
                 accessibilityValue={
                   {
                     "max": undefined,
@@ -178,7 +176,6 @@ exports[`Should present the route title on scene content 1`] = `
                 }
                 accessible={true}
                 collapsable={false}
-                delayPressIn={0}
                 focusable={true}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -193,14 +190,16 @@ exports[`Should present the route title on scene content 1`] = `
                 style={
                   [
                     {
+                      "cursor": "pointer",
                       "opacity": 1,
                     },
                     [
                       {
                         "backgroundColor": "transparent",
+                        "borderRadius": 10,
                       },
                       {
-                        "width": 0,
+                        "width": 375,
                       },
                     ],
                   ]
@@ -236,8 +235,9 @@ exports[`Should present the route title on scene content 1`] = `
                           {
                             "backgroundColor": "transparent",
                             "color": "rgba(255, 255, 255, 0.7)",
+                            "fontSize": 14,
+                            "fontWeight": "500",
                             "margin": 4,
-                            "textTransform": "uppercase",
                           }
                         }
                       >
@@ -263,8 +263,9 @@ exports[`Should present the route title on scene content 1`] = `
                           {
                             "backgroundColor": "transparent",
                             "color": "rgba(255, 255, 255, 1)",
+                            "fontSize": 14,
+                            "fontWeight": "500",
                             "margin": 4,
-                            "textTransform": "uppercase",
                           }
                         }
                       >
@@ -299,7 +300,6 @@ exports[`Should present the route title on scene content 1`] = `
                     "selected": false,
                   }
                 }
-                accessibilityStates={[]}
                 accessibilityValue={
                   {
                     "max": undefined,
@@ -310,7 +310,6 @@ exports[`Should present the route title on scene content 1`] = `
                 }
                 accessible={true}
                 collapsable={false}
-                delayPressIn={0}
                 focusable={true}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -325,14 +324,16 @@ exports[`Should present the route title on scene content 1`] = `
                 style={
                   [
                     {
+                      "cursor": "pointer",
                       "opacity": 1,
                     },
                     [
                       {
                         "backgroundColor": "transparent",
+                        "borderRadius": 10,
                       },
                       {
-                        "width": 0,
+                        "width": 375,
                       },
                     ],
                   ]
@@ -368,8 +369,9 @@ exports[`Should present the route title on scene content 1`] = `
                           {
                             "backgroundColor": "transparent",
                             "color": "rgba(255, 255, 255, 0.7)",
+                            "fontSize": 14,
+                            "fontWeight": "500",
                             "margin": 4,
-                            "textTransform": "uppercase",
                           }
                         }
                       >
@@ -395,8 +397,9 @@ exports[`Should present the route title on scene content 1`] = `
                           {
                             "backgroundColor": "transparent",
                             "color": "rgba(255, 255, 255, 1)",
+                            "fontSize": 14,
+                            "fontWeight": "500",
                             "margin": 4,
-                            "textTransform": "uppercase",
                           }
                         }
                       >
